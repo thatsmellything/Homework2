@@ -1,5 +1,12 @@
 package model;
 
-public class Square {
+public class Square extends Shape{
+	
+	private double side;
+	
+	public void getArea()
+	{
+		
+	}
 
 }
