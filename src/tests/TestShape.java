@@ -31,6 +31,16 @@ public class TestShape {
 	shapeyBois.add(pLad);
 	shapeyBois.add(pLad2);
 	
+	//Possible other solution
+	*/
+	//	List<Shape> shapeyBois = new ArrayList<>(8);
+	//		Shape o = list.get(x)
+	//		if (o instanceof Child) {
+  	//		  Child child = (Child) o;
+  			  // Do something with child
+}
+		
+	/*
 	
 	
 	
