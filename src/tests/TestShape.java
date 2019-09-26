@@ -8,7 +8,9 @@ public class TestShape {
 	
 	static ArrayList<Shape> shapeyBois = new ArrayList<Shape>(8);
 	
-	shapeyBois.@add(new Triangle(50.9));
+	Triangle triangleBaby = new Triagle(5.0);
+	
+	shapeyBois.add(triangleBaby);
 
 
 }
