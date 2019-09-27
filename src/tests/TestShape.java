@@ -1,15 +1,17 @@
 package tests;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import model.*;
+import model.Triangle;
 
 public class TestShape {
 	
 	//create the child models
 	
-	Triangle triangleBaby = new Triangle(5.0);
+
 	Triangle triangleBaby2 = new Triangle(5.0);
 	Square squareChild = new Square(30.2);
 	Square squareChild2 = new Square(30.2);
@@ -19,17 +21,10 @@ public class TestShape {
 	Pyramid pLad2 = new Pyramid(9.9);
 	
 	//Create the arraylist
-	
-	List<Shape> shapeyBois = new ArrayList<Shape>(8);
+	LinkedList<Shape> shapelist = new LinkedList<Shape>();
+	//ArrayList<Shape> shapeyBois = new ArrayList<Shape>(8);
 	//Add the child models to the array
-	shapeyBois.add(triangleBaby);
-	shapeyBois.add(triangleBaby2);
-	shapeyBois.add(squareChild);
-	shapeyBois.add(squareChild2);
-	shapeyBois.add(cubeBoi);
-	shapeyBois.add(cubeBoi2);
-	shapeyBois.add(pLad);
-	shapeyBois.add(pLad2);
+	shapelist.add(new Triangle());
 	
 	//Possible other solution
 	*/
