@@ -15,7 +15,7 @@ public class TestGUI extends Application {
 	public void start(Stage stage)
 	{
 		
-		//GUI NEEDS STAGE SCENE PANE 
+		//GUI NEEDS STAGE SCENE PANE AND THEN ANYTHING ELSE AKA BUTTONS AND TEXT
 		
 		
 		
