@@ -1,16 +1,16 @@
 package tests;
 
 import java.util.ArrayList;
+import java.util.List;
 
-import model.Shape;
 import model.*;
 
 public class TestShape {
 	
 	//create the child models
 	
-	Triangle triangleBaby = new Triagle(5.0);
-	Triangle triangleBaby2 = new Triagle(5.0);
+	Triangle triangleBaby = new Triangle(5.0);
+	Triangle triangleBaby2 = new Triangle(5.0);
 	Square squareChild = new Square(30.2);
 	Square squareChild2 = new Square(30.2);
 	Cube cubeBoi = new Cube(4.5);
