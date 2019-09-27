@@ -2,27 +2,27 @@ package model;
 
 public class Shape {
 	
-	private double sideSize;
+	int sideSize;
 	
-	public Shape(double SS)
+	public Shape(int SS)
 	{
 		sideSize = SS;
 	}
 	
-	public void setSideSize(double SS)
+	public void setSideSize(int SS)
 	{
 		sideSize = SS;
 	}
 	
-	public double getSideSize()
+	public int getSideSize()
 	{
 		return sideSize;
 	}
 
 	
-	public double getArea()
+	public String getArea()
 	{
-		double x = 6.9;
-		return x;
+		String getAr = "To get the area you times the width by the height";
+		return getAr;
 	}
 }

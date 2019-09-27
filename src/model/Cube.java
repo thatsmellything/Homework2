@@ -3,21 +3,36 @@ package model;
 public class Cube extends Shape{
 
 	
-	private double sideSize;
+	int sideSize;
 	
 	
-	public Cube(double SS)
+	public Cube(int SS)
 	{
 		super(SS);
 		SS = sideSize;
 	}
 	
+	public void setSideSize(int SS)
+	{
+		SS = sideSize;
+	}
 	
-	public void getArea()
+	public int getSideSize()
+	{
+		
+		return sideSize;
+	}
+	
+	
+	
+	
+	public String getArea()
 	{
 		//gets the surface area because it is 3D
-		double surfaceArea = sideSize*sideSize*6;
+		int s = this.getSideSize();
+		int surfaceArea = s*s*6;
 		
-		System.out.println("Cude surface Area is: " + surfaceArea);
+		String cubeSA = "Cude surface Area is: " + surfaceArea;
+		return cubeSA;
 	}
 }
