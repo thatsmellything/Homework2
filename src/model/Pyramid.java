@@ -3,20 +3,19 @@ package model;
 public class Pyramid extends Shape
 {
 
-private int sideSize;
+
 	
-	
-	public Pyramid(int SS)
+	public Pyramid(double sideSize)
 	{
-		super(SS);
-		SS = sideSize;
+		super(sideSize);
+		
 	}
 	
 	
 	public String getArea()
 	{
 		//gets the surface area because it is 3D
-		int surfaceArea = sideSize*sideSize*4/2;
+		double surfaceArea = getSideSize()*getSideSize()*4/2;
 		
 		String sa = "Pyramid surface Area is: " + surfaceArea;
 		return sa;

@@ -2,27 +2,33 @@ package model;
 
 public class Shape {
 	
-	int sideSize;
+	private double sideSize;
 	
-	public Shape(int SS)
+	public Shape(double SS)
 	{
-		sideSize = SS;
+		setSideSize(SS);
 	}
 	
-	public void setSideSize(int SS)
-	{
-		sideSize = SS;
-	}
-	
-	public int getSideSize()
-	{
-		return sideSize;
-	}
+
 
 	
 	public String getArea()
 	{
 		String getAr = "To get the area you times the width by the height";
 		return getAr;
+	}
+
+
+
+
+	public double getSideSize() {
+		return sideSize;
+	}
+
+
+
+
+	public void setSideSize(double sideSize) {
+		this.sideSize = sideSize;
 	}
 }

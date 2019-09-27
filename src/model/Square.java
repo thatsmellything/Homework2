@@ -2,20 +2,20 @@ package model;
 
 public class Square extends Shape{
 	
-private int sideSize;
+
 	
 	
-	public Square(int SS)
+	public Square(double sideSize)
 	{
-		super(SS);
-		SS = sideSize;
+		super(sideSize);
+		
 	}
 	
 	
 	public String getArea()
 	{
 		//gets the surface area because it is 3D
-		double Area = sideSize*sideSize;
+		double Area = getSideSize()*getSideSize();
 		
 		String sa = "Square Area is: " + Area;
 		return sa;

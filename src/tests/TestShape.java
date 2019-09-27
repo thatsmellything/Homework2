@@ -11,8 +11,8 @@ public class TestShape {
 	
 	public static void main(String[] args)
 	{
-		Shape[] shapes = {new Triangle(2), new Triangle(3), new Square(5), new Square(4), new Pyramid(9), new Pyramid(4), new Cube(10), new Cube(200)};
-		for (int i = 0; i<shapes.length; i++)
+		Shape[] shapes = {new Triangle(2.5), new Triangle(3.0), new Square(5.8), new Square(4), new Pyramid(9.9), new Pyramid(4.5), new Cube(10.01), new Cube(200.002)};
+		for (int i = 0; i < shapes.length; i++)
 		{
 			System.out.println(shapes[i].getArea());
 		}
