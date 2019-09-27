@@ -19,4 +19,10 @@ public class Shape {
 		return sideSize;
 	}
 
+	
+	public double getArea()
+	{
+		double x = 6.9;
+		return x;
+	}
 }
