@@ -11,7 +11,10 @@ public class TestShape {
 	
 	public static void main(String[] args)
 	{
+		//Here you can put in the shapes that you want and their respective DOUBLE values for the length of their sides
 		Shape[] shapes = {new Triangle(2.5), new Triangle(3.0), new Square(5.8), new Square(4), new Pyramid(9.9), new Pyramid(4.5), new Cube(10.01), new Cube(200.002)};
+		
+		//Loop to go through the list and calc the area
 		for (int i = 0; i < shapes.length; i++)
 		{
 			System.out.println(shapes[i].getArea());
@@ -25,7 +28,7 @@ public class TestShape {
 	
 	
 	
-	
+	//FAILED PROJECTS LEARHN FROM MISTAKES
 	
 	
 	//create the child models
